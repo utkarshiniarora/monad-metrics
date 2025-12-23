@@ -1,0 +1,26 @@
+.t-card {
+  background: linear-gradient(180deg, #1b1c29 0%, #11121c 100%);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 16px;
+  color: #ffffff;
+}
+
+.t-label {
+  font-size: 0.8rem;
+  color: #aaa;
+  font-weight: 600;
+}
+
+.t-value {
+  font-size: 1.1rem;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+
+.t-tag {
+
+  color: #cfd2ff;
+  font-size: 0.7rem;
+  padding: 4px 8px;
+  border-radius: 8px;
+}

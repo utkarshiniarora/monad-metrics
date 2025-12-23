@@ -1,0 +1,72 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #0f111a;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  padding: 2rem;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background: #1b1f34;
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+  box-shadow: 0 4px 10px rgba(49, 56, 66, 0.5);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  font-size: 0.9rem;
+  color: #aaa;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.stars {
+  position: fixed;
+  inset: 0;
+  background: black;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.stars::after {
+  content: "";
+  position: absolute;
+  inset: -50%;
+  background-image: radial-gradient(1px 1px at 13% 21%, white, transparent),
+    radial-gradient(1px 1px at 37% 68%, white, transparent),
+    radial-gradient(2px 2px at 52% 14%, white, transparent),
+    radial-gradient(1px 1px at 64% 49%, white, transparent),
+    radial-gradient(1px 1px at 78% 83%, white, transparent),
+    radial-gradient(2px 2px at 89% 33%, white, transparent);
+  background-repeat: repeat;
+  background-size: 500px 500px;
+  animation: rotateStars 180s linear infinite;
+  transform-origin: center;
+}
+
+@keyframes rotateStars {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
