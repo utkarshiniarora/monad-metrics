@@ -17,7 +17,7 @@ npm install
 ```bash
 CHAINSTACK_URL=<Your-Chainstack-Endpoint-URL>
 ```
-For a detailed step-by-step guide with code examples and screenshots, read the full blog: [Monad for Developers: A Practical Deep Dive]()
+For a detailed step-by-step guide with code examples and screenshots, read the full blog: [Monad for Developers: A Practical Deep Dive](https://chainstack.com/monad-for-builders-implementation-guide/)
 
 **4. Run the Project**
 ```bash
